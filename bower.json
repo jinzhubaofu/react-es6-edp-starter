@@ -1,0 +1,26 @@
+{
+  "name": "react-es6-edp-starter",
+  "version": "1.0.0",
+  "authors": [
+    "ludafa@outlook.com"
+  ],
+  "description": "A boilerplate for building React apps with ES6 and edp",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "es6",
+    "edp"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "dep",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "0.14.0-rc1"
+  }
+}

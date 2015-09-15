@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>react es6 edp kickstarter</title>
+</head>
+<body>
+<div id="app"></div>
+<script src="http://s1.bdstatic.com/r/www/cache/ecom/esl/2-0-6/esl.js"></script>
+<script>
+require.config({
+
+    baseUrl: '.',
+
+    paths: {
+        'react': '../dep/react/react',
+        'react-dom': '../dep/react/react-dom'
+    }
+
+});
+require(['index'], function (index) {
+    index.init();
+});
+</script>
+</body>
+</html>
